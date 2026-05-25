@@ -12,10 +12,11 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.seileguiden.app",
+      "bundleIdentifier": "com.seilhjelpen.app",
       "infoPlist": {
         "NSCameraUsageDescription": "Vi trenger tilgang til kameraet for å ta bilde av sjømerker og få umiddelbar forklaring.",
-        "NSPhotoLibraryUsageDescription": "Vi trenger tilgang til bilder for å analysere sjømerker."
+        "NSPhotoLibraryUsageDescription": "Vi trenger tilgang til bilder for å analysere sjømerker.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
