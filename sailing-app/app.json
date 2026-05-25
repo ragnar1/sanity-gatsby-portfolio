@@ -5,7 +5,13 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "scheme": "seileguiden",
+    "scheme": "seilhjelpen",
+    "updates": {
+      "url": "https://u.expo.dev/af0ff246-79b5-4dbd-b9e1-ab30981c848a"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
     "splash": {
       "resizeMode": "contain",
       "backgroundColor": "#0A1628"
