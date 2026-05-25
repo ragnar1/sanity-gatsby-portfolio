@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Seileguiden",
+    "slug": "seilhjelpen",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "seilhjelpen",
+    "updates": {
+      "url": "https://u.expo.dev/af0ff246-79b5-4dbd-b9e1-ab30981c848a"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0A1628"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.seilhjelpen.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Vi trenger tilgang til kameraet for å ta bilde av sjømerker og få umiddelbar forklaring.",
+        "NSPhotoLibraryUsageDescription": "Vi trenger tilgang til bilder for å analysere sjømerker.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A1628"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Vi trenger tilgang til kameraet for å ta bilde av sjømerker."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Vi trenger tilgang til bilder for å analysere sjømerker."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "af0ff246-79b5-4dbd-b9e1-ab30981c848a"
+      }
+    }
+  }
+}
